@@ -1,4 +1,4 @@
-package com.aimerneige.test.huawu.ui.information
+package com.aimerneige.huawu.jungang.ui.information
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.aimerneige.test.huawu.R
+import com.aimerneige.huawu.jungang.R
 
 class InformationFragment : Fragment() {
 

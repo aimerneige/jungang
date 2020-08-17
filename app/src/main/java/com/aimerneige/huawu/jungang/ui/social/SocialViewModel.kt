@@ -1,13 +1,13 @@
-package com.aimerneige.test.huawu.ui.knowledge
+package com.aimerneige.huawu.jungang.ui.social
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class KnowledgeViewModel : ViewModel() {
+class SocialViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is knowledge Fragment"
+        value = "This is social Fragment"
     }
     val text: LiveData<String> = _text
 }

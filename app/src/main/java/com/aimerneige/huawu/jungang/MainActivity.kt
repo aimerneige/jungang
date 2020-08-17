@@ -1,4 +1,4 @@
-package com.aimerneige.test.huawu
+package com.aimerneige.huawu.jungang
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

@@ -1,4 +1,4 @@
-package com.aimerneige.test.huawu
+package com.aimerneige.huawu.jungang
 
 import org.junit.Test
 

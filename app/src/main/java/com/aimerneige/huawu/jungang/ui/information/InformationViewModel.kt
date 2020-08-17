@@ -1,13 +1,13 @@
-package com.aimerneige.test.huawu.ui.profile
+package com.aimerneige.huawu.jungang.ui.information
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class ProfileViewModel : ViewModel() {
+class InformationViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is profile Fragment"
+        value = "This is information Fragment"
     }
     val text: LiveData<String> = _text
 }
