@@ -4,21 +4,25 @@
     <item
         android:id="@+id/navigation_information"
         android:icon="@drawable/ic_information_gray_24dp"
-        android:title="@string/title_information" />
+        android:title="@string/title_information"
+        android:visible="true" />
 
     <item
         android:id="@+id/navigation_knowledge"
         android:icon="@drawable/ic_knowledge_gray_24dp"
-        android:title="@string/title_knowledge" />
+        android:title="@string/title_knowledge"
+        android:visible="true" />
 
     <item
         android:id="@+id/navigation_social"
         android:icon="@drawable/ic_social_gray_24dp"
-        android:title="@string/title_social" />
+        android:title="@string/title_social"
+        android:visible="true" />
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_profile_gray_24dp"
-        android:title="@string/title_profile" />
+        android:title="@string/title_profile"
+        android:visible="true" />
 
 </menu>
