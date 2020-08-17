@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JunGang</string>
+    <string name="title_information">Information</string>
+    <string name="title_knowledge">Knowledge</string>
+    <string name="title_social">Social</string>
+    <string name="title_profile">Profile</string>
+</resources>
