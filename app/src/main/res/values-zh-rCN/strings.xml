@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">军港</string>
+    <string name="title_information">资讯</string>
+    <string name="title_knowledge">军事知识</string>
+    <string name="title_social">社区</string>
+    <string name="title_profile">个人中心</string>
+</resources>
