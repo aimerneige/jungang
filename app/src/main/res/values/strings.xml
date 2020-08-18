@@ -4,4 +4,6 @@
     <string name="title_knowledge">Knowledge</string>
     <string name="title_social">Social</string>
     <string name="title_profile">Profile</string>
+    <string name="profile_demo_user_name">AimerNeige</string>
+    <string name="profile_demo_personal_signature">Always Keep Calm And Believe Yourself.</string>
 </resources>
