@@ -5,6 +5,10 @@
     <string name="title_knowledge">军事知识</string>
     <string name="title_social">社区</string>
     <string name="title_profile">个人中心</string>
-    <string name="profile_demo_user_name">AimerNeige</string>
-    <string name="profile_demo_personal_signature">Always Keep Calm And Believe Yourself.</string>
+    <string name="profile_demo_user_name">心系祖国</string>
+    <string name="profile_demo_personal_signature">富强、民主、文明、和谐，自由、平等、公正、法治，爱国、敬业、诚信、友善</string>
+    <string name="profile_personality_display">个性展示</string>
+    <string name="profile_my_favourite">我的收藏</string>
+    <string name="profile_new_friend">好友请求</string>
+    <string name="profile_feedback">问题反馈</string>
 </resources>

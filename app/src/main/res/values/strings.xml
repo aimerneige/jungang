@@ -6,4 +6,8 @@
     <string name="title_profile">Profile</string>
     <string name="profile_demo_user_name">AimerNeige</string>
     <string name="profile_demo_personal_signature">Always Keep Calm And Believe Yourself.</string>
+    <string name="profile_personality_display">Personality Display</string>
+    <string name="profile_my_favourite">My Favorites</string>
+    <string name="profile_new_friend">New Friend</string>
+    <string name="profile_feedback">Feedback</string>
 </resources>
