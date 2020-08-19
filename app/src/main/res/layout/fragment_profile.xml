@@ -120,9 +120,8 @@
         app:sShapeStrokeDashGap="8dp"
         app:sShapeStrokeDashWidth="5dp"
         app:sTopDividerLineMarginLR="0dp"
-        app:sUseRipple="true" />
+        app:sUseRipple="false" />
 
-    <!-- TODO: Picture -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
