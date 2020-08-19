@@ -208,4 +208,13 @@
     <color name="YellowGreen">#9ACD32</color>
     <!-- z -->
 
+    <!-- JP Color -->
+    <color name="AOTAKE">#00896C</color>
+    <color name="AOTAKE_LIGHT">#00EAB8</color>
+    <color name="USUKI">#FAD689</color>
+    <color name="USUKI_DARK">#998354</color>
+    <color name="SEIJI">#69B0AC</color>
+    <color name="SEIJI_DARK">#2F4F4D</color>
+
+
 </resources>
