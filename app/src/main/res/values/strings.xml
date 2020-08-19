@@ -10,4 +10,9 @@
     <string name="profile_my_favourite">My Favorites</string>
     <string name="profile_new_friend">New Friend</string>
     <string name="profile_feedback">Feedback</string>
+    <string name="social_article_text">Article</string>
+    <string name="social_followig">Followig</string>
+    <string name="social_message">Message</string>
+    <string name="social_post">Post</string>
+    <string name="social_explore">Explore</string>
 </resources>

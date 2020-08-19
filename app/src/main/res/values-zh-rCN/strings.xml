@@ -11,4 +11,9 @@
     <string name="profile_my_favourite">我的收藏</string>
     <string name="profile_new_friend">好友请求</string>
     <string name="profile_feedback">问题反馈</string>
+    <string name="social_article_text">精选文章</string>
+    <string name="social_followig">关注的人</string>
+    <string name="social_message">消息</string>
+    <string name="social_post">发表</string>
+    <string name="social_explore">发现</string>
 </resources>
