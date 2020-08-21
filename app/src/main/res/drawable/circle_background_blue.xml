@@ -1,5 +1,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
+<item>
         <shape android:shape="oval">
             <stroke android:color="#1E90FF" android:width="0dp" />
             <solid android:color="#87CEEB"/>
