@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/information_search_bar"
         android:layout_width="match_parent"
-        android:layout_height="172dp"
+        android:layout_height="184dp"
         android:text="I'm the Search Bar (TODO)"
         android:textSize="28sp"
         android:gravity="center"
@@ -42,7 +42,7 @@
                 android:layout_marginVertical="4dp"
                 android:background="@color/PowderBlue"
                 app:sLeftTextSize="24sp"
-                app:sLeftTextString="Test"
+                app:sLeftTextString="@string/information_hot"
                 app:sUseRipple="false" />
 
             <LinearLayout
@@ -56,30 +56,35 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/green"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_green"
+                    android:src="@drawable/ic_error_black_24dp" />
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/blue"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_blue"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/yellow"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_red"
+                    android:src="@drawable/ic_error_black_24dp" />
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/red"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_yellow"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_margin="1dp"
                     android:background="#00000000"
                     android:src="@drawable/ic_add_gray_64dp"/>
 
@@ -101,7 +106,7 @@
                 android:layout_marginVertical="4dp"
                 android:background="@color/PowderBlue"
                 app:sLeftTextSize="24sp"
-                app:sLeftTextString="Test"
+                app:sLeftTextString="@string/information_videos"
                 app:sUseRipple="false" />
 
             <LinearLayout
@@ -115,30 +120,35 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/green"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_green"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/blue"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_blue"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/yellow"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_red"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/red"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_yellow"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_margin="1dp"
                     android:background="#00000000"
                     android:src="@drawable/ic_add_gray_64dp"/>
 
@@ -150,7 +160,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:layout_marginVertical="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="72dp"
             android:orientation="vertical">
 
             <com.allen.library.SuperTextView
@@ -160,7 +171,7 @@
                 android:layout_marginVertical="4dp"
                 android:background="@color/PowderBlue"
                 app:sLeftTextSize="24sp"
-                app:sLeftTextString="Test"
+                app:sLeftTextString="@string/information_history"
                 app:sUseRipple="false" />
 
             <LinearLayout
@@ -174,30 +185,35 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/green"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_green"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/blue"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_blue"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/yellow"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_red"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#00000000"
-                    android:src="@drawable/red"/>
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_onclick_yellow"
+                    android:src="@drawable/ic_error_black_24dp"/>
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_margin="1dp"
                     android:background="#00000000"
                     android:src="@drawable/ic_add_gray_64dp"/>
 
