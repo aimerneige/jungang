@@ -21,7 +21,7 @@
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
-        android:layout_height="128dp"
+        android:layout_height="120dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,6 +82,7 @@
             android:orientation="vertical">
 
             <ImageButton
+                android:id="@+id/social_post_imgbutton"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_marginHorizontal="4dp"
@@ -105,6 +106,7 @@
             android:orientation="vertical">
 
             <ImageButton
+                android:id="@+id/social_explore_imgbutton"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_marginHorizontal="4dp"
