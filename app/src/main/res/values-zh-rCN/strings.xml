@@ -16,4 +16,7 @@
     <string name="social_message">消息</string>
     <string name="social_post">发表</string>
     <string name="social_explore">发现</string>
+    <string name="information_hot">热点</string>
+    <string name="information_videos">视频</string>
+    <string name="information_history">历史</string>
 </resources>

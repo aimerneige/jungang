@@ -15,4 +15,7 @@
     <string name="social_message">Message</string>
     <string name="social_post">Post</string>
     <string name="social_explore">Explore</string>
+    <string name="information_hot">Hot</string>
+    <string name="information_videos">Videos</string>
+    <string name="information_history">History</string>
 </resources>
