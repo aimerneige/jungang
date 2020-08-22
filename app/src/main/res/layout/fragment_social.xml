@@ -40,7 +40,7 @@
                 android:layout_weight="1"
                 android:layout_marginHorizontal="4dp"
                 android:layout_marginVertical="4dp"
-                android:background="@drawable/circle_background_blue"
+                android:background="@drawable/circle_onclick_blue"
                 android:src="@drawable/ic_social_following_white_64dp" />
 
             <TextView
@@ -64,7 +64,7 @@
                 android:layout_marginHorizontal="4dp"
                 android:layout_marginVertical="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/circle_background_yellow"
+                android:background="@drawable/circle_onclick_yellow"
                 android:src="@drawable/ic_social_message_white_64dp" />
 
             <TextView
@@ -87,7 +87,7 @@
                 android:layout_marginHorizontal="4dp"
                 android:layout_marginVertical="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/circle_background_purple"
+                android:background="@drawable/circle_onclick_purple"
                 android:src="@drawable/ic_social_post_white_64dp" />
 
             <TextView
@@ -110,7 +110,7 @@
                 android:layout_marginHorizontal="4dp"
                 android:layout_marginVertical="4dp"
                 android:layout_weight="1"
-                android:background="@drawable/circle_background_green"
+                android:background="@drawable/circle_onclick_green"
                 android:src="@drawable/ic_social_explore_white_64dp" />
 
             <TextView
