@@ -16,14 +16,13 @@ class SecondScreen : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.welcome_first_screen, container, false)
+        val view = inflater.inflate(R.layout.welcome_second_screen, container, false)
 
         val viewPager = activity?.findViewById<ViewPager2>(R.id.welcome_pager)
 
-//        view.welcome_page2_next.setOnClickListener {
-//            viewPager?.currentItem = 1
-//        }
+        view.welcome_page2_next.setOnClickListener {
+            viewPager?.currentItem = 2
+        }
 
         return view
     }

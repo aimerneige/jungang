@@ -15,6 +15,7 @@
         android:background="#00000000"
         android:text="Next"
         android:textColor="#FFFFFF"
+        android:textAllCaps="false"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

@@ -7,6 +7,7 @@ import com.aimerneige.huawu.jungang.R
 import com.aimerneige.huawu.jungang.ui.welcome.screen.FirstScreen
 import com.aimerneige.huawu.jungang.ui.welcome.screen.SecondScreen
 import com.aimerneige.huawu.jungang.ui.welcome.screen.ThirdScreen
+import com.aimerneige.huawu.jungang.ui.welcome.sign.SignPage
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 class WelcomeActivity : AppCompatActivity() {
@@ -25,6 +26,8 @@ class WelcomeActivity : AppCompatActivity() {
             supportFragmentManager,
             lifecycle
         )
+
+        // You can add the ViewPager2 in a fragment and switch to sign page
 
         welcome_pager.adapter = adapter
     }

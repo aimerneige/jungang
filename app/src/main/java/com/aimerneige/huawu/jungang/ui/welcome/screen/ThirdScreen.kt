@@ -17,25 +17,28 @@ class ThirdScreen : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.welcome_third_screen, container, false)
 
         val viewPager = activity?.findViewById<ViewPager2>(R.id.welcome_pager)
 
-//        view.welcome_log_bottom.setOnClickListener {
-//            // save stage
-//            onWelcomeFinished();
-//
-//            // TODO: start the log
-//        }
+        view.welcome_log_bottom.setOnClickListener {
+            // TODO: start a log view to log in
+            // Sign Up / Log In
+
+            // TODO: move this function to log page
+            onLoginFinished();
+
+            // 登陆完成后关闭Activity 返回主界面
+            activity?.finish()
+        }
 
         return view
     }
 
-    private fun onWelcomeFinished() {
+    private fun onLoginFinished() {
         val sharedPref = requireActivity().getSharedPreferences("logCheck", Context.MODE_PRIVATE)
         val editor = sharedPref.edit()
-        editor.putBoolean("Welcomed", true)
+        editor.putBoolean("Logged", true)
         editor.apply()
     }
 }
